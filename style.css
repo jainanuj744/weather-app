@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: #3C486B;
+}
+
+nav {
+    height: 100px;
+    width: 100%;
+    background-color: #F0F0F0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+
+}
+
+.temperature {
+    height: 35rem;
+}
+
+.input-field{
+    padding: 1rem 0;
+    width: 40rem;
+    font-size: 1.2rem;
+    background-color: #F0F0F0;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+button{
+    background-color: #B9EDDD;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    border: none;
+}
